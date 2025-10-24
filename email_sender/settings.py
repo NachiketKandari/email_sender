@@ -115,10 +115,11 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.bizmail.yahoo.com'  # Turbify SMTP server
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'abhrajeet@unitygrowthfund.com'  # Your email
+EMAIL_HOST_USER = 'nachiket@unitygrowthfund.com'  # Your email
 EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD', 'yqqsghmykfctqbqk')  # Use environment variable for security
 
 # Google OAuth2 settings
 GOOGLE_CLIENT_ID = '473476765568-o6oncq42gsmqppmgui0dtcfbh803761p.apps.googleusercontent.com'
 GOOGLE_CLIENT_SECRET = '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'
 GOOGLE_REDIRECT_URI = 'http://127.0.0.1:8000/oauth2callback/'
+
